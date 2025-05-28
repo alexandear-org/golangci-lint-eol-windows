@@ -4,11 +4,4 @@ linters:
   default: none
 formatters:
   enable:
-    - gci
     - gofmt
-  settings:
-    gci:
-      sections:
-      - standard
-      - default
-      - localmodule
